@@ -1,7 +1,7 @@
-if not aragas then aragas = {} end
+if not aragasmods then aragasmods = {} end
 
-if not aragas.functions then aragas.functions = {} end
+if not aragasmods.functions then aragasmods.functions = {} end
 
-if aragas.functions then
-	aragas.functions.OV = require("prototypes.override-functions")
+if aragasmods.functions then
+	aragasmods.functions.OV = require("prototypes.override-functions")
 end

@@ -14,7 +14,7 @@ if settings.startup["remelting-smooth-integration"].value then
 	--NITINOL
 	OV.add_unlock("angels-nitinol-smelting-2", "molten-nitinol-remelting")
 else
-	aragas.functions.OV.enable_technology("remelting-tier-4")
+	aragasmods.functions.OV.enable_technology("remelting-tier-4")
 	
 	--BRONZE
 	OV.add_unlock("remelting-tier-1", "molten-bronze-remelting")

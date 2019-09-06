@@ -40,7 +40,7 @@ if settings.startup["remelting-smooth-integration"].value then
 else
 	require("prototypes.technology.remelting-technology-angelssmelting")
 	
-	aragas.functions.OV.disable_technology("remelting-tier-4")
-	aragas.functions.OV.disable_technology("remelting-tier-5")
-	aragas.functions.OV.disable_technology("remelting-tier-6")
+	aragasmods.functions.OV.disable_technology("remelting-tier-4")
+	aragasmods.functions.OV.disable_technology("remelting-tier-5")
+	aragasmods.functions.OV.disable_technology("remelting-tier-6")
 end
