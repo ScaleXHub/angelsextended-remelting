@@ -33,7 +33,7 @@ if bobmods and bobmods.plates then
 	require("prototypes.remelting-override-bob")
 end
 
-if mods["clowns-processing"] then
+if mods["Clowns-Processing"] then
 	require("prototypes.recipes.clowns.remelting-magnesium")
 	
 	require("prototypes.remelting-override-clowns")
