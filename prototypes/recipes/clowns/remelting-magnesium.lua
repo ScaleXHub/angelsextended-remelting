@@ -24,7 +24,7 @@ data:extend(
 		},
 		icons = {
 			{
-				icon = "__clowns-processing__/graphics/icons/molten-magnesium.png",
+				icon = "__Clowns-Processing__/graphics/icons/molten-magnesium.png",
 			},
 			{
 				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
