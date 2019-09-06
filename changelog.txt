@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+  Features:
+    - Initial release.
+	- Metal plates remelting added.
+	- Added support for Bob's Mods
