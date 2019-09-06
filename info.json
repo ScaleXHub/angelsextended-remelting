@@ -10,6 +10,6 @@
   "dependencies": [
 	"angelssmelting >= 0.4.0",
 	"? bobplates >= 0.15.0", 
-	"? Clowns-Processing >= 1.3.2"
+	"? Clowns-Processing >= 1.3.2",
 	"! Better_Strand_Casting"]
 }
