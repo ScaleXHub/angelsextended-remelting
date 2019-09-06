@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+  Features:
+	- Marked Better_Strand_Casting as incompatible as it can lead to infinite resource abuse.
+
+---------------------------------------------------------------------------------------------------
 Version: 0.17.3
   Features:
 	- Added Russian translation.
