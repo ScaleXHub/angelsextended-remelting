@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 	-- Cobalt Steel Plate
@@ -6,14 +8,21 @@ data:extend(
 		name = "molten-cobalt-steel-remelting",
 		category = "induction-smelting",
 		subgroup = "angels-alloys-casting",
-		energy_required = 6,
-		enabled = "false",
-		ingredients ={
-			{type="item", name="cobalt-steel-alloy", amount=4},
-		},
-		results=
+		-- Original Angel's Smelting does not add an expensive version to casting.
+		-- Not sure why, is it applied to some other process earlier in production chain?
+		normal =
 		{
-			{type="fluid", name="liquid-molten-cobalt-steel", amount=40},
+			enabled = "false",
+			energy_required = 6,
+			ingredients ={{type="item", name="cobalt-steel-alloy", amount=4}},
+			results={{type="fluid",name="liquid-molten-cobalt-steel", amount=35}},
+		},
+		expensive =
+		{
+			enabled = "false",
+			energy_required = 6,
+			ingredients ={{type="item", name="cobalt-steel-alloy", amount=5 * intermediatemulti}},
+			results={{type="fluid",name="liquid-molten-cobalt-steel", amount=40}},
 		},
 		icons = {
 			{
@@ -27,7 +36,7 @@ data:extend(
 			}
 		},
 		icon_size = 32,
-		order = "e]",
+		order = "f]",
 	},
 }
 )

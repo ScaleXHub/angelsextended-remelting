@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 	-- Brass Plate
@@ -6,14 +8,21 @@ data:extend(
 		name = "molten-brass-remelting",
 		category = "induction-smelting",
 		subgroup = "angels-alloys-casting",
-		energy_required = 6,
-		enabled = "false",
-		ingredients ={
-			{type="item", name="brass-alloy", amount=4},
-		},
-		results=
+		-- Original Angel's Smelting does not add an expensive version to casting.
+		-- Not sure why, is it applied to some other process earlier in production chain?
+		normal =
 		{
-			{type="fluid", name="liquid-molten-brass", amount=40},
+			enabled = "false",
+			energy_required = 6,
+			ingredients ={{type="item", name="brass-alloy", amount=4}},
+			results={{type="fluid",name="liquid-molten-brass", amount=35}},
+		},
+		expensive =
+		{
+			enabled = "false",
+			energy_required = 6,
+			ingredients ={{type="item", name="brass-alloy", amount=5 * intermediatemulti}},
+			results={{type="fluid",name="liquid-molten-brass", amount=40}},
 		},
 		icons = {
 			{

@@ -10,5 +10,5 @@
   "dependencies": [
 	"angelssmelting >= 0.4.0",
 	"? bobplates >= 0.15.0", 
-	"? clowns-processing >= 1.3.2 "]
+	"? clowns-processing >= 1.3.2"]
 }
