@@ -3,7 +3,7 @@ local intermediatemulti = angelsmods.marathon.intermediatemulti
 data:extend(
 {
 	-- Chrome Plate
-    {
+	{
 		type = "recipe",
 		name = "molten-chrome-remelting",
 		category = "induction-smelting",
@@ -32,7 +32,7 @@ data:extend(
 				scale = 0.32,
 				shift = {-12, -12},
 			}
-		},	
+		},
 		icon_size = 32,
 		order = "a]",
 	},

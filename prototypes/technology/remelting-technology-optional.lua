@@ -1,6 +1,6 @@
 data:extend(
 {
-	-- Tier 0
+	-- Remelting
 	{
 		type = "technology",
 		name = "remelting-tier-0",
@@ -39,8 +39,6 @@ data:extend(
 		},
 		order = "c-a"
 	},
-	
-	-- Tier 1
 	{
 		type = "technology",
 		name = "remelting-tier-1",
@@ -80,8 +78,6 @@ data:extend(
 		},
 		order = "c-a"
 	},
-	
-	-- Tier 2
 	{
 		type = "technology",
 		name = "remelting-tier-2",
@@ -130,8 +126,6 @@ data:extend(
 		},
 		order = "c-a"
 	},
-	
-	-- Tier 3
 	{
 		type = "technology",
 		name = "remelting-tier-3",
@@ -172,8 +166,6 @@ data:extend(
 		},
 		order = "c-a"
 	},
-	
-	-- Tier 4
 	{
 		type = "technology",
 		name = "remelting-tier-4",
@@ -199,8 +191,6 @@ data:extend(
 		},
 		order = "c-a"
 	},
-	
-	-- Tier 5
 	{
 		type = "technology",
 		name = "remelting-tier-5",
@@ -226,8 +216,6 @@ data:extend(
 		},
 		order = "c-a"
 	},
-	
-	-- Tier 6
 	{
 		type = "technology",
 		name = "remelting-tier-6",

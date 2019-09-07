@@ -38,5 +38,34 @@ data:extend(
 		icon_size = 32,
 		order = "d]",
 	},
+
+	-- Molten Gunmetal
+	{
+		type = "recipe",
+		name = "molten-gunmetal-alloy-mixing-1",
+		category = "molten-alloy-mixing",
+		subgroup = "aragas-gunmetal-alloy-mixing",
+		enabled = "false",
+		energy_required = 4,
+		ingredients ={
+			{type="fluid", name="liquid-molten-copper", amount=180},
+			{type="fluid", name="liquid-molten-zinc", amount=120},
+			{type="fluid", name="liquid-molten-tin", amount=60},
+		},
+		results={{type="fluid", name="liquid-molten-gunmetal", amount=360}},
+		icons = {
+			{
+				icon = "__angelssmelting__/graphics/icons/molten-gunmetal.png",
+			},
+			{
+				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+				scale = 0.32,
+				shift = {-12, -12},
+			}
+		},
+		icon_size = 32,
+		order = "aa",
+	},
 }
 )

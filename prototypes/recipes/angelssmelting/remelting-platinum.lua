@@ -3,7 +3,7 @@ local intermediatemulti = angelsmods.marathon.intermediatemulti
 data:extend(
 {
 	-- Platinum Plate
-    {
+	{
 		type = "recipe",
 		name = "molten-platinum-remelting",
 		category = "induction-smelting",
@@ -32,9 +32,9 @@ data:extend(
 				scale = 0.32,
 				shift = {-12, -12},
 			}
-		},	
+		},
 		icon_size = 32,
 		order = "a]",
-    },
+	},
 }
 )
