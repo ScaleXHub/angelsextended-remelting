@@ -48,3 +48,7 @@ if mods["Clowns-Processing"] then
 
 	require("prototypes.remelting-override-clowns")
 end
+
+if mods["ShinyAngelGFX"] and iconset then -- Check if iconset exist as it could be edited in the future
+	require("prototypes.remelting-override-shinygfx")
+end
