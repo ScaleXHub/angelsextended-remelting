@@ -13,14 +13,14 @@ data:extend(
 			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="clowns-plate-magnesium", amount=4}},
-			results={{type="fluid", name="liquid-molten-magnesium", amount=40}},
+			results={{type="fluid", name="liquid-molten-magnesium", amount=35}},
 		},
 		expensive =
 		{
 			enabled = false,
 			energy_required = 6,
 			ingredients ={{type="item", name="clowns-plate-magnesium", amount=5 * intermediatemulti}},
-			results={{type="fluid", name="liquid-molten-magnesium", amount=40}},
+			results={{type="fluid", name="liquid-molten-magnesium", amount=35}},
 		},
 		icons = {
 			{
