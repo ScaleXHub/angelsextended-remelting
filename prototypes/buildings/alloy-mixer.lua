@@ -9,7 +9,7 @@ data:extend(
 				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
 			},
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				icon = "__angelspetrochem__/graphics/icons/num_1.png",
 				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
 				scale = 0.32,
 				shift = {-12, -12},
@@ -29,7 +29,7 @@ data:extend(
 				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
 			},
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				icon = "__angelspetrochem__/graphics/icons/num_1.png",
 				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
 				scale = 0.32,
 				shift = {-12, -12},
@@ -64,11 +64,11 @@ data:extend(
 				{
 					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
-					height = 224,
-					frame_count = 16,
-					line_length = 4,
+					height = 256,
+					frame_count = 36,
+					line_length = 6,
 					animation_speed = 0.5,
-					shift = {0, 0},
+					shift = {0, -0.5},
 				},
 			}
 		},
@@ -121,7 +121,7 @@ data:extend(
 				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
 			},
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				icon = "__angelspetrochem__/graphics/icons/num_2.png",
 				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
 				scale = 0.32,
 				shift = {-12, -12},
@@ -138,10 +138,10 @@ data:extend(
 		name = "alloy-mixer-2",
 		icons = {
 			{
-				icon = "__angelsrefining__/graphics/icons/liquifier.png",
+				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
 			},
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				icon = "__angelspetrochem__/graphics/icons/num_2.png",
 				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
 				scale = 0.32,
 				shift = {-12, -12},
@@ -174,13 +174,13 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__angelspetrochem__/graphics/entity/advanced-chemical-plant/advanced-chemical-plant.png",
+					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
-					height = 224,
-					frame_count = 16,
-					line_length = 4,
+					height = 256,
+					frame_count = 36,
+					line_length = 6,
 					animation_speed = 0.5,
-					shift = {0, 0},
+					shift = {0, -0.5},
 				},
 			}
 		},
@@ -232,7 +232,7 @@ data:extend(
 				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
 			},
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				icon = "__angelspetrochem__/graphics/icons/num_3.png",
 				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
 				scale = 0.32,
 				shift = {-12, -12},
@@ -249,10 +249,10 @@ data:extend(
 		name = "alloy-mixer-3",
 		icons = {
 			{
-				icon = "__angelsrefining__/graphics/icons/liquifier.png",
+				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
 			},
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				icon = "__angelspetrochem__/graphics/icons/num_3.png",
 				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
 				scale = 0.32,
 				shift = {-12, -12},
@@ -285,13 +285,13 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__angelspetrochem__/graphics/entity/advanced-chemical-plant/advanced-chemical-plant.png",
+					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
-					height = 224,
-					frame_count = 16,
-					line_length = 4,
+					height = 256,
+					frame_count = 36,
+					line_length = 6,
 					animation_speed = 0.5,
-					shift = {0, 0},
+					shift = {0, -0.5},
 				},
 			}
 		},
@@ -343,7 +343,7 @@ data:extend(
 				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
 			},
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				icon = "__angelspetrochem__/graphics/icons/num_4.png",
 				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
 				scale = 0.32,
 				shift = {-12, -12},
@@ -360,10 +360,10 @@ data:extend(
 		name = "alloy-mixer-4",
 		icons = {
 			{
-				icon = "__angelsrefining__/graphics/icons/liquifier.png",
+				icon = "__angelsextended-remelting__/graphics/icons/alloy-mixer.png",
 			},
 			{
-				icon = "__angelsextended-remelting__/graphics/icons/remelting.png",
+				icon = "__angelspetrochem__/graphics/icons/num_4.png",
 				tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
 				scale = 0.32,
 				shift = {-12, -12},
@@ -396,13 +396,13 @@ data:extend(
 		animation ={
 			layers={
 				{
-					filename = "__angelspetrochem__/graphics/entity/advanced-chemical-plant/advanced-chemical-plant.png",
+					filename = "__angelsextended-remelting__/graphics/entity/alloy-mixer/alloy-mixer.png",
 					width = 224,
-					height = 224,
-					frame_count = 16,
-					line_length = 4,
+					height = 256,
+					frame_count = 36,
+					line_length = 6,
 					animation_speed = 0.5,
-					shift = {0, 0},
+					shift = {0, -0.5},
 				},
 			}
 		},
