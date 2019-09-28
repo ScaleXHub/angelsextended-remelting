@@ -2,7 +2,7 @@
 Version: 0.17.10
 Date: 29.09.2019
   Bugfixes:
-    - Fixed Induction Furnace receipes. The Induction Furnace was using the hidden angels items instead of the override ones.
+    - Fixed Induction Furnace recipes. The Induction Furnace was using the hidden angels items instead of the override ones.
 ---------------------------------------------------------------------------------------------------
 Version: 0.17.9
 Date: 07.09.2019
