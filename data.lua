@@ -32,6 +32,7 @@ if angelsmods and angelsmods.smelting then
     require("prototypes.recipes.angelssmelting.remelting-zinc")
 
     require("prototypes.remelting-override-angelssmelting")
+
 end
 
 require("prototypes.recipes.remelting-entity")

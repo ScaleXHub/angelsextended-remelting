@@ -16,6 +16,15 @@ data:extend(
 				type = "unlock-recipe",
 				recipe = "alloy-mixer"
 			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-bronze-alloy-mixing-1"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-brass-alloy-mixing-1"
+			},	
+		   
 		},
 		unit =
 		{
@@ -43,6 +52,31 @@ data:extend(
 				type = "unlock-recipe",
 				recipe = "alloy-mixer-2"
 			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-gunmetal-alloy-mixing-1"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-bronze-alloy-mixing-2"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-brass-alloy-mixing-2"
+			},	
+			{
+				type = "unlock-recipe",
+				recipe = "molten-cobalt-steel-alloy-mixing-1"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-invar-alloy-mixing-1"
+
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-steel-alloy-mixing-2"
+			},
 		},
 		unit =
 		{
@@ -69,7 +103,19 @@ data:extend(
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "alloy-mixer-3"
+				recipe = "alloy-mixer-3",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-bronze-alloy-mixing-3"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-brass-alloy-mixing-3"
+			},	
+			{
+				type = "unlock-recipe",
+				recipe = "molten-steel-alloy-mixing-3"
 			},
 		},
 		unit =
@@ -98,7 +144,15 @@ data:extend(
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "alloy-mixer-4"
+				recipe = "alloy-mixer-4",
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-nitinol-alloy-mixing-1"
+			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-steel-alloy-mixing-4"
 			},
 		},
 		unit =

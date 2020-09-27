@@ -114,6 +114,10 @@ data:extend(
 				type = "unlock-recipe",
 				recipe = "molten-glass-remelting"
 			},
+			{
+				type = "unlock-recipe",
+				recipe = "molten-bronze-remelting"
+			},
 		},
 		unit =
 		{

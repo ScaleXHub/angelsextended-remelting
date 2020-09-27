@@ -6,6 +6,12 @@ OV.add_unlock("angels-solder-smelting-3", "molten-solder-alloy-mixing-3")
 
 OV.add_unlock("angels-steel-smelting-1", "molten-steel-alloy-mixing")
 
+OV.add_unlock("angels-bronze-smelting-1", "molten-bronze-alloy-mixing-1")
+OV.add_unlock("angels-bronze-smelting-2", "molten-bronze-alloy-mixing-2")
+OV.add_unlock("angels-bronze-smelting-3", "molten-bronze-alloy-mixing-3")
+
+
+
 if settings.startup["remelting-smooth-integration"].value then
 	--ALUMINIUM
 	OV.add_unlock("angels-aluminium-smelting-2", "molten-aluminium-remelting")
@@ -43,6 +49,9 @@ if settings.startup["remelting-smooth-integration"].value then
 	OV.add_unlock("angels-titanium-smelting-2", "molten-titanium-remelting")
 	--ZINC
 	OV.add_unlock("angels-zinc-smelting-2", "molten-zinc-remelting")
+	--BRONZE
+	OV.add_unlock("angels-bronze-smelting-2", "molten-bronze-alloy-remelting")
+
 else
 	require("prototypes.technology.remelting-technology-optional")
 
