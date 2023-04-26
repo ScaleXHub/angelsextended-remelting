@@ -5,3 +5,16 @@ if angelsmods and  angelsmods.refining then
 	angelsmods.functions.RB.set_fallback("item", "alloym-3", { { "block-mprocessing-3", 1 }, { "alloy-mixer-2" } } )
 	angelsmods.functions.RB.set_fallback("item", "alloym-4", { { "block-mprocessing-4", 1 }, { "alloy-mixer-3" } } )
 end
+
+if bobmods and bobmods.plates then
+    require("prototypes.remelting-category-bobplates")
+
+    require("prototypes.recipes.bobplates.remelting-brass")
+    require("prototypes.recipes.bobplates.remelting-bronze")
+    require("prototypes.recipes.bobplates.remelting-cobalt-steel")
+    require("prototypes.recipes.bobplates.remelting-gunmetal")
+    require("prototypes.recipes.bobplates.remelting-invar")
+    require("prototypes.recipes.bobplates.remelting-nitinol")
+
+    require("prototypes.remelting-override-bobplates")
+end

@@ -39,19 +39,6 @@ require("prototypes.recipes.remelting-entity")
 
 require("prototypes.technology.remelting-technology")
 
-if bobmods and bobmods.plates then
-    require("prototypes.remelting-category-bobplates")
-
-    require("prototypes.recipes.bobplates.remelting-brass")
-    require("prototypes.recipes.bobplates.remelting-bronze")
-    require("prototypes.recipes.bobplates.remelting-cobalt-steel")
-    require("prototypes.recipes.bobplates.remelting-gunmetal")
-    require("prototypes.recipes.bobplates.remelting-invar")
-    require("prototypes.recipes.bobplates.remelting-nitinol")
-
-    require("prototypes.remelting-override-bobplates")
-end
-
 if mods["Clowns-Processing"] then
     require("prototypes.recipes.clowns.remelting-magnesium")
 
